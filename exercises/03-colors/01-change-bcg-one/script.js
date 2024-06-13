@@ -1,14 +1,22 @@
-/* becode/javascript
- *
- * /03-colors/01-change-bcg-one/script.js - 3.1: couleur de fond (1)
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+// Get references to the buttons
+var redButton = document.getElementById("red");
+var yellowButton = document.getElementById("yellow");
+var greenButton = document.getElementById("green");
+var blueButton = document.getElementById("blue");
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
+// Add click event listeners to each button
+redButton.addEventListener("click", function () {
+  document.body.style.backgroundColor = "red";
+});
 
-(() => {
-    // your code here
-})();
+yellowButton.addEventListener("click", function () {
+  document.body.style.backgroundColor = "yellow";
+});
+
+greenButton.addEventListener("click", function () {
+  document.body.style.backgroundColor = "green";
+});
+
+blueButton.addEventListener("click", function () {
+  document.body.style.backgroundColor = "blue";
+});
