@@ -9,6 +9,14 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // your code here
-})();
+var colorChoice = document.getElementById("color").value;
+const value = [red, blue, green, yellow, blue];
+var red =   document.body.style.backgroundColor = "red";
+
+
+
+    runButton.addEventListener("click", function{
+        var input = document.getElementById("userInput").value;
+        
+    });
+

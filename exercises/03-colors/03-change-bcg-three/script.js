@@ -9,6 +9,10 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
-    // your code here
-})();
+var random = document.getElementById("run");
+
+random.addEventListener("click", function () {
+  var color =
+    "#" + ((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0");
+  document.body.style.backgroundColor = color;
+});
